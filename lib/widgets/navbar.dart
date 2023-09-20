@@ -29,7 +29,7 @@ class _NavBarState extends State<NavBar> {
     return Scaffold(
       body: pages[current_index],
       bottomNavigationBar: BottomNavigationBar(
-          backgroundColor: Colors.green,
+          backgroundColor: Colors.yellowAccent,
           iconSize: 26,
           selectedItemColor: Colors.black,
           unselectedItemColor: Colors.grey,

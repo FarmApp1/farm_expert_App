@@ -12,11 +12,22 @@ import 'package:flutter/material.dart';
 import 'screens/farmer_site/register_login/farmer_dashboard.dart';
 
 void main() {
-  runApp(
-    MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
+  runApp(MaterialApp(
+    title: 'Flutter Demo',
+
+    theme: ThemeData(
+      primaryColor: Colors.green,
+      hintColor: Colors.greenAccent,
+      fontFamily: 'Roboto',
+      appBarTheme: AppBarTheme(
+        color: Colors.green,
+        elevation: 0, // Remove app bar shadow
+      ),
+      textTheme: TextTheme(
+        bodyText2: TextStyle(
+          fontSize: 16.0,
+          color: Colors.black87, // Adjust text color
+        ),
       ),
       initialRoute: 'RoleScreen',
       routes: {
@@ -25,7 +36,6 @@ void main() {
         'Navbar': (context) => NavBar(),
         'FarmerDash': (context) => FarmerDash(),
         'CameraScreen': (context) => CameraScreen(),
-        
       },
     ),
   );
