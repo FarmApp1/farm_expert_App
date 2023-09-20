@@ -1,6 +1,10 @@
+import 'dart:js';
+
+
 import 'package:farmo_exp/screens/farmer_site/register_login/camera_screen.dart';
 import 'package:farmo_exp/screens/farmer_site/register_login/farmer_login.dart';
 import 'package:farmo_exp/screens/onboarding_screens/roleSelectionScreen.dart';
+
 import 'package:farmo_exp/widgets/navbar.dart';
 
 import 'package:flutter/material.dart';
@@ -21,7 +25,11 @@ void main() {
         'Navbar': (context) => NavBar(),
         'FarmerDash': (context) => FarmerDash(),
         'CameraScreen': (context) => CameraScreen(),
+        
       },
     ),
   );
 }
+
+
+

@@ -79,7 +79,7 @@ class _RoleSelectionScreenState extends State<RoleSelectionScreen> {
                       Navigator.pushNamed(context, 'FarmerLogin');
                     } else if (selectedRole == 'Expert') {
                       // Navigate to ExpertScreen
-                      Navigator.pushNamed(context, 'ExpertScreen');
+                      Navigator.pushNamed(context, 'ExpertLogin');
                     }
                   }
                 : null, // Disable the button when no role is selected
