@@ -45,6 +45,11 @@ dependencies:
   camera: ^0.10.5+4
   video_player: ^2.7.2
   image_picker: ^1.0.4
+  permission_handler: ^11.0.0
+  audioplayers: ^5.1.0
+  flutter_sound: ^9.2.13
+  fluttertoast: ^8.2.2
+  record: ^4.4.4
 
 dev_dependencies:
   flutter_test:
